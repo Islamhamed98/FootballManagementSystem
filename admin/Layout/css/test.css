@@ -1,0 +1,380 @@
+*{
+    padding:0;
+    margin:0;
+    outline:0;
+}
+body{
+    height:650px;
+    width:100%;
+}
+
+.nav{
+    background-image: url('../images/pexels-photo-104675.jpeg');
+    background-size:cover;
+    height:658px;
+    color:#FFF;
+    opacity: 1.5;
+
+}
+.nav-top h2{
+    float:left;
+    width:70%;
+    color:#FFF;
+    font-family: sans;
+    display: none;
+}
+.ul-login{
+    float:left;
+    width:30%;
+    font-family: sans;
+}
+.ul-login li {
+    list-style:none;
+    float:left;
+    padding:10px;
+    margin-top:10px;
+    font-size:25px;
+    margin-left:20px;
+}
+.ul-login li a{
+    color:#FFF;
+    text-decoration: none;
+
+}
+.ul-login li a:hover{
+    color:#FFF;
+    text-decoration: none;
+
+}
+.log,.sign{
+    display: none;
+}
+/* ======================================================= */
+
+.login{
+    width:500px;
+    margin:150px auto;
+    color:#FFF; 
+    height:300px;   
+}
+form{
+    padding:90px;
+    padding-left:0;
+    display: none;
+}
+.fa-user {
+    color:#FFF;
+    position: absolute;
+    top:255px;
+    left:430px;
+}
+.fa-lock{
+    
+    color:#FFF;
+    position: absolute;
+    top:335px;
+    left:430px;
+}
+.fa-chevron-right{
+    color:#FFF;
+    position: absolute;
+    top:445px;
+    left:870px;
+}
+.login form input{
+    width:500px;
+    background:none;
+    color:#FFF;
+    padding:10px;
+    border:1px solid #CCC;
+    border-top:none;
+    border-left: none;
+    border-right:none;
+    padding-left:100px;
+    transition: 0.4s ease-in-out;
+   
+}
+.login .login-btn {
+    margin-top:70px;
+    height:40px;
+    width:500px !important;
+    color:#FFF;
+    border:1px solid #CCC;
+    padding:7px;
+    font-size:17px;
+    border-radius:25px;
+    background-color:rgb(19, 34, 78);
+    outline:0;
+}
+.login-btn :hover{
+    background:none;
+}
+.login form input::placeholder{
+    color:#FFF;
+    font-weight:normal; 
+    margin-left:10px;  
+}
+
+/* ===================================================================================================== */
+
+/* Start Dashboard Page */
+.nav-dash{
+    background-image: url('../images/pexels-photo-104675.jpeg');
+    height:900px;
+    background-size:cover;
+   -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+}
+.up{
+    background-color: #1e272e;
+    padding-bottom: 12px;
+}
+.up .system  a{
+    color:#FFF;
+    text-decoration: none;
+}
+.up .system  a:hover{
+    color:#FFF;
+    transition:.3s ease-in;
+    border-bottom:1px solid #CCC;
+    padding-bottom: 10px;
+    border-top:1px solid #CCC;
+    padding-top:10px;
+}
+
+.system{
+    overflow: hidden;
+    height:100px;
+}
+.nav-dash h2{
+    width:40%;
+    float:left;
+}
+.nav-dash .system-ul{
+    float:left;
+    width:60%;
+}
+.nav-dash .system-ul > li {
+    list-style:none;
+    float:left;
+    margin-top:25px;
+    margin-left:25px;
+    font-size:20px;
+}
+.dropdown{
+    margin-top:-75px;
+    margin-left:900px;
+}
+.open > .dropdown-menu{
+    background-color:#02101d;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+.open > .dropdown-menu  a{
+    padding:5px;
+    color:#FFF;
+    margin:15px;
+    transition:.2s ease;
+}
+.open > .dropdown-menu  a:hover{
+   padding:10px;
+   border-radius: 20px;
+
+}
+.btn-default{
+    background-color:#1e272e;
+    color:#FFF
+}
+.container{
+    width:1100px;
+}
+.team {
+    position: absolute;
+    top:90px;
+    height:600px;
+    color:#FFF;
+    left:30px; 
+
+}
+.main{
+    padding:10px;
+}
+.main-th{
+        background-color: #34495e;
+        text-align: center
+}
+.main-th > th{
+    text-align:center;
+}
+ 
+.components{
+    position: absolute;
+    top:70px;
+ 
+    color:#FFF;
+    width:100%;
+    margin-left:0px;
+    padding-left:0
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    height:830px;
+    width:100%;
+}
+.span-user
+{
+    color: #02101d;
+    font-size:40px;
+}
+.main-car{
+    position: absolute;
+    top:140px;
+    color:#FFF;
+
+}
+.main-car h2{
+    font-family: sans;
+    font-size:30px;
+    font-weight: bold;
+    padding-bottom:10px;
+    line-height: 1.4;
+}
+.main-car p{
+    font-family: Arial;
+    color:#FFF; 
+    line-height: 1.9;
+}
+.div-btns{
+    margin-top:20px;
+    font-family: sans-serif;
+    letter-spacing: 2;
+    
+}
+ .match-btn{
+    border:1px solid #333;
+    background-color:#02101d;   
+}
+.match-btn a,
+.match-btn-succ a{
+    color:#FFF;
+    text-decoration: none;
+}
+ .match-btn-succ{
+    border:1px solid #333;
+    background-color:#02101d;
+    transition:.2s ease-in-out;
+    
+ }
+ .match-btn-succ:hover{
+    color:#999;
+    background-color:#00090f;
+}
+.match-btn:hover{
+    color:#999;
+    background-color:#00090f;
+} 
+.search-label{
+    font-family: sans;
+    font-size:30px;
+}
+
+.search-input{
+width:700px;
+border:1px solid #FFF;
+background:none;
+color:#000;
+outline:0;
+background-color:#02101d;
+color:#FFF;
+margin-left:170px;
+margin-top:-40px;
+padding-left:20px;
+}
+
+.sub-btn{
+    width:200px !important;
+    background-color:#02101d;
+    margin-left:170px;
+    margin-top:10px;
+    border-radius:10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+ 
+.edit-form{
+    position:absolute;
+    top:50px;
+    left:130px;
+    color:#FFF;
+    font-family: Tahoma;
+}
+.edit-form label{
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.edit-form input{
+    width:800px;
+    background:none;
+    color:#FFF;
+    font-weight: bold;
+    font-family: Arial;
+  
+}
+.edit-form input::placeholder{
+    color:rgb(233, 225, 225);
+    font-size:13px;
+    font-weight:normal;   
+}
+.search-btn-admin{
+    background-color:#02101d;
+    border:1px solid #888;
+    transition: 0.4s ease;
+    margin-left:170px;
+    margin-top:20px;
+    width:100px;
+    letter-spacing: 1px; 
+    border-radius:10px;
+    margin-left:20px;
+    margin-top:8px;
+    margin-bottom:2px;
+}
+.search-btn
+{
+    background-color:#02101d;
+    border:1px solid #888;
+    transition: 0.4s ease;
+    margin-left:170px;
+    margin-top:20px;
+    width:150px;
+    letter-spacing: 1px; 
+    border-radius:10px;   
+}
+.search-btn:hover{
+    background-color:brown;
+    border-radius:25px;
+}
+.search-btn a{
+    text-decoration:none;
+    color:#FFF;
+}
+.btn-comp1,
+.btn-comp2{
+    width:500px;
+    font-family:Tahoma;
+    font-size:15px;
+    letter-spacing: 1px;
+    
+    float:left;
+}
+.btn-comp1:hover,
+.btn-comp2:hover{
+    background-color:#00090f;
+}
+.btn-comp1 a ,
+.btn-comp2 a{ 
+    color:#FFF;
+    text-decoration: none;
+}
+ 
+/* End Dashboard Page */
